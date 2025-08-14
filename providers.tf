@@ -9,3 +9,10 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+
+provider "turbonomic" {
+  hostname   = var.hostname
+  username   = var.username
+  password   = var.password
+  skipverify = true
+}
