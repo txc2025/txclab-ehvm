@@ -15,15 +15,3 @@ variable "repo_name" {
  description = "Unique identifier for a each student session and workspace"
  default     = "txclab-ehvm"
 } 
-
-variable "hostname" {
-    type = string
-}
-
-variable "username" {
-    type = string
-}
-
-variable "password" {
-    type = string
-}
